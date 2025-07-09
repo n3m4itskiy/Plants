@@ -1,0 +1,194 @@
+.prices__container {
+    display: flex;
+    padding: 40px 0 115px 0;
+    justify-content: space-between;
+}
+.prices__selection {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+    width: 332px;
+    height: 391px;
+}
+
+.prices__selection h1 {
+    margin-bottom: 60px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+}
+
+.prices__items {
+    border: 1px solid #e3e1d5;
+    border-radius: 20px;
+    padding: 34px 41px;
+}
+
+.prices__items ul {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.prices__items ul li {
+    width: 250px;
+    height: 50px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000;
+    background: #edf2ec;
+    border-radius: 20px;
+}
+
+.prices__item span {
+    width: 100px;
+    height: 18px;
+    display: block;
+}
+
+.prices__item {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+    justify-content: center;
+}
+
+.accordion-btn {
+    background: #d9d9d9;
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prices__contact {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    row-gap: 38px;
+}
+
+.prices__contact h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    text-align: right;
+    color: #000;
+    width: 452px;
+}
+
+.prices__contact h1 span {
+    color: #499a18;
+}
+
+.prices__contact button {
+    width: 162px;
+    height: 50px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    border: 1px solid #e06733;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.prices__contact button a{
+    font-size: 20px;
+    color: #e06733;
+}
+
+.prices__contact button:hover {
+    background: #e06733;
+}
+
+.prices__contact button:hover a {    
+    color: #fff; 
+}
+
+.prices__contact img {
+    width: 152px;
+    height: 175px;
+}
+
+@media  screen and (max-width: 847px) {
+    .prices__container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .prices__container {
+        padding-bottom: 88px;
+    }
+    .prices__selection h1 {
+        font-size: 35px;
+        width: 135px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .prices__contact h1 {
+        font-size: 25px;
+        line-height: 140%;
+        width: 296px;
+        margin-bottom: 22px;
+    }
+    .prices__contact {
+        margin-top: 99px;
+        gap: 0;
+    }
+    .prices__contact button {
+        margin-bottom: 34px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .prices__container {
+        padding: 25px 0 40px 0;
+        justify-content: center;
+    }
+
+    .prices__selection {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .prices__selection h1 {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .prices__contact {
+        margin-top: 19px;
+        align-items: center;
+    }
+
+    .prices__contact h1 {
+        margin-bottom: 14px;
+        font-size: 20px;
+        line-height: 175%;
+        text-align: center;
+        width: 230px;
+        height: 77px;
+    }
+
+    .prices__contact img {
+        display: none;
+    }
+
+    .prices__contact button {
+        width: 121px;
+        height: 35px;
+        margin: 0
+    }
+
+    .prices__contact button a {
+        font-size: 15px;
+    }
+}

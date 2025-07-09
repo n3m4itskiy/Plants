@@ -1,0 +1,124 @@
+.welcome{
+    background: #edf2ec;
+    
+}
+
+.welcome__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 62px 0 62px 0;
+}
+
+.welcome__container img {
+    width: 448px;
+    height: 407px;
+}
+
+.welcome__content {
+    width: 549px;
+}
+
+.welcome__content h1 {
+    color: #717171;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 111%;
+    font-family: var(--font-family);
+    margin-bottom: 42px;
+}
+
+.welcome__content h1 span {
+    color: #499a18;
+}
+
+.welcome__content p {
+    color: #636060;
+    font-size: 20px;
+    line-height: 175%;
+    font-family: var(--font-family);
+    margin-bottom: 48px;
+}
+
+.welcome__content button {
+    font-size: 16px;
+    text-align: center;
+    width: 158px;
+    height: 44px;
+    border: 2px solid #e06733;
+    border-radius: 10px;
+    background: rgba(224, 103, 51, 0);
+    color: #000;
+    font-family: var(--font-family);
+}
+
+.welcome__content button:hover {
+    background: #e06733;
+}
+
+.welcome__content button:hover a {    
+    color: #fff; 
+}
+
+@media screen and (max-width: 768px) {
+    .welcome__container {
+        padding: 40px 0 70px 0;
+    }
+
+    .welcome__content {
+        width: 346px;
+}
+
+    .welcome__content h1 {
+        font-size: 35px;
+        line-height: 143%;
+        margin: 0 5px 30px 0;
+    }
+
+    .welcome__content p {
+        font-size: 16px;
+        line-height: 156%;
+        margin: 0 0 30px 5px;
+    }
+
+    .welcome__container img {
+        width: 280px;
+        height: 254px;
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    .welcome__container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .welcome__container {
+        padding: 24px 0;
+    }
+    .welcome__content h1 {
+        font-size: 25px;
+        line-height: 140%;
+        margin: 0 0 20px 0;
+    }
+
+    .welcome__content p {
+        margin: 0 0 20px 0;
+    }
+
+    .welcome__content button {
+        width: 100px;
+        height: 34px;
+    }
+
+    .welcome__content button a {
+        font-size: 10px;
+        line-height: 200%;
+    }
+
+    .welcome__container img {
+        display: none;
+    }
+}
