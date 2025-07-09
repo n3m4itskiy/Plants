@@ -123,27 +123,27 @@
     }
 
     .first img {
-        content: url(/assets/image/first2.png);
+        content: url("assets/image/first2.png");
     }
 
     .second img {
-        content: url(/assets/image/second2.png)
+        content: url("assets/image/second2.png")
     }
 
     .third img {
-        content: url(/assets/image/third2.png);
+        content: url("assets/image/third2.png");
     }
 
     .fourth img {
-        content: url(/assets/image/fourth2.png);
+        content: url("assets/image/fourth2.png");
     }
 
     .fifth img {
-        content: url(/assets/image/fifth2.png);
+        content: url("assets/image/fifth2.png");
     }
 
     .sixth img {
-        content: url(/assets/image/sixth2.png);
+        content: url("assets/image/sixth2.png");
     }
 }
 
