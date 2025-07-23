@@ -42,7 +42,7 @@
     
 }
 
-.accordion-btn {
+.contact-us__select .accordion-btn {
     background: #aea1a1;
     margin-right: 35px;
 }
@@ -101,7 +101,7 @@
         margin-top: 132px;
     }
 
-    .accordion-btn {
+    .contact-us__select .accordion-btn {
         margin-right: 20px;
     }
 }

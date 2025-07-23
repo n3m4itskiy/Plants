@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/image/logo_header.svg" type="image/x-icon">
     <title>Plants</title>
 </head>
 <body>
@@ -19,6 +20,15 @@
                 <div class="header__btn-line"></div>
                 <div class="header__btn-line"></div>
             </div>
+            <nav class="popup">
+                <ul class="popup__nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
             <nav class="header__nav">
                 <ul class="header__nav-list">
                     <li><a href="#">Home</a></li>
@@ -111,26 +121,30 @@
                 <div class="prices__selection">
                     <h1>Prices</h1>
                     <div class="prices__items">
-                        <ul>
-                            <li class="prices__item">
-                                <span>Basics</span>
-                                <div class="accordion-btn">
+                            <div class="prices__item">
+                                <p>Basics</p>
+                                <div class="accourdion-btn">
                                     <img src="assets/image/arrow.svg" alt="image">
                                 </div>
-                            </li>
-                            <li class="prices__item">
-                                <span>Standard</span>
-                                <div class="accordion-btn">
+                                <div class="prices__accourdion">
+                                    <hr>
+                                    <p>Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <p><span>$25</span> / per hour</p>
+                                    <button>Order</button>
+                                </div>
+                            </div>
+                            <div class="prices__item">
+                                <p>Standard</p>
+                                <div class="accourdion-btn">
                                     <img src="assets/image/arrow.svg" alt="image">
                                 </div>
-                            </li>
-                            <li class="prices__item">
-                                <span>Pro Care</span>
-                                <div class="accordion-btn">
+                            </div>
+                            <div class="prices__item">
+                                <p>Pro Care</p>
+                                <div class="accourdion-btn">
                                     <img src="assets/image/arrow.svg" alt="image">
                                 </div>
-                            </li>
-                        </ul>
+                            </div>
                     </div>
                 </div>
                 <div class="prices__contact">
@@ -177,6 +191,7 @@
                 </div>
             </div>
         </footer>
-        <script src="script.js"></script>
+        <script src="js/popup-menu.js"></script>
+        <script src="js/prices-accordion.js"></script>
 </body>
 </html>
